@@ -1,0 +1,45 @@
+html {
+    /* ustawia pełną wysokość i szerokość strony */
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    /* kolor tła */
+    background-color: yellow;
+    /* default text color */
+    color: red;
+    /* default font family for site */
+    font-family: Verdana;
+}
+#header {
+    width: 100%;
+    /* wyśrodkowanie tekstu */
+    text-align: center;
+    /* ustawianie rozmiaru czcionki */
+    font-size: 2em; /* 1em - rozmiar pojedyńczej litery */
+
+}
+/* <p>...</p> - akapit */
+p {
+    /* odsunięcie tkstu od krawędzi */
+    padding: 0.5em;
+}
+#section {
+    width: 100%;
+    /* wyśrodkowanie tekstu */
+    text-align: center;
+    /* ustawianie rozmiaru czcionki */
+    font-size: 1.7em; /* 1em - rozmiar pojedyńczej litery */
+}
+#footer {
+    width: 100%;
+    /* ustawianie rozmiaru czcionki */
+    font-size: 1.5em; /* em - rozmiar pojedyńczej litery */
+    /* przyklejenie stopki do dołu strony */
+    position: fixed;
+    bottom: 0;
+    /* odsunięcie tkstu od krawędzi */
+    padding: 0.5em;
+    /* skala grubości 0 - 900 dla czcionki */
+    font-weight: 600;
+}
